@@ -1,5 +1,7 @@
 DANDI/NWB Metadata Audit
+
 Author: Celine Ertekin
+
 Python metadata-audit tools developed during my internship with the Coalition for Aligning Science (CAS), supporting the Aligning Science Across Parkinson's (ASAP) Initiative, alongside subsequent work on NWB extraction. These engines organize metadata and source evidence into Excel workbooks to support review of reporting completeness and data reuse.
 
 Included engines

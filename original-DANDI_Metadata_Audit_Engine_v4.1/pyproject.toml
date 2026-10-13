@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dandi-metadata-audit"
+version = "1.5.0"
+description = "Focused ephys-first evidence-based metadata audit engine for DANDI/NWB datasets."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Celine Ertekin"}]
+dependencies = [
+  "dandi>=0.68",
+  "pynwb>=3.0",
+  "remfile>=0.1.13",
+  "h5py>=3.10",
+  "pandas>=2.0",
+  "openpyxl>=3.1",
+  "requests>=2.31",
+  "beautifulsoup4>=4.12",
+  "lxml>=5.0",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+dandi-metadata-audit = "metadata_audit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["metadata_audit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

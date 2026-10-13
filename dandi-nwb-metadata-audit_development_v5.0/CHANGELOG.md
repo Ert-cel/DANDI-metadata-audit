@@ -1,14 +1,4 @@
 # Changelog
-
-## 2.0.0 — Pilot review and modality-aware mapping
-
-- Review the actual 001177 one-file pilot and distinguish the 56 NWB assets from the single scanned file.
-- Add a concise NWB Findings view and group repeated source records while retaining technical details in NWB Properties and JSONL.
-- Resolve common HDF5 object references instead of counting them as extraction errors.
-- Gate requirement matches by observed modality and object path, including protection against matching electrode channels to optical-channel requirements.
-- Keep the complete Allen register while focusing Common Data Elements on methods observed in scanned files.
-- Preserve subject descriptions as NWB narrative for review and expose acquisition-type and modality candidates with explicit review status.
-
 ## 1.9.0 — NWB provenance and workflow correction
 
 - Replace the obsolete publication and CatalystNeuro core workflow description with the actual DANDI/NWB pipeline.

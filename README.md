@@ -23,9 +23,9 @@ The v4.1/v5.0 labels identify project snapshots. Internal package versions retai
 
 Software and source credits
 Both engines use PyNWB (NWBHDF5IO) to read NWB files, the DANDI Python client for dataset/asset discovery, remfile for remote access, h5py for HDF5 access, and openpyxl for Excel output. v4.1 also uses CatalystNeuro curated metadata and publication/usage resources. These libraries and sources are distinct from this project's audit logic.
-- PyNWB documentation
-- DANDI Archive
-- CatalystNeuro ASAP access-analysis source
+- [PyNWB documentation](https://pynwb.readthedocs.io/)
+- [DANDI Archive](https://dandiarchive.org/)
+- [CatalystNeuro ASAP access-analysis](https://github.com/catalystneuro/asap-access-analysis)
   
 PyNWB citation
 Following the official PyNWB citation guidance:

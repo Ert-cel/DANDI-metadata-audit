@@ -9,6 +9,7 @@ Included engines
 Combines DANDI metadata and selected NWB fields with CatalystNeuro curated dataset records, linked-publication lookup through Crossref/PubMed/PMC, and headline DANDI usage summaries. Narrative-derived findings are candidates requiring manual review.
 This supplied snapshot has not been run and requires validation. It represents internship development work rather than a verified executable that generated the completed audit findings.
 [Code and usage instructions](original-DANDI_Metadata_Audit_Engine_v4.1/README.md)
+
 **v5.0 — NWB extraction development engine**
 Focuses on more detailed NWB inspection using PyNWB and native HDF5 access. It records metadata paths, read status, and array shape/type information; writes an Excel workbook and compressed property inventory; and keeps DANDI references separate from evidence that a value is present in NWB. Publication-text retrieval and usage summaries are not part of this workflow.
 This is a development version requiring further live validation. Improved extraction performance has not been established.
